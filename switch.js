@@ -18,7 +18,7 @@ function retornaDiaSemana(number)
         case 7:
           return "Sábado";
         default:
-          return "Dia inválido";
+          return "Número inválido";
     }
 }
 
