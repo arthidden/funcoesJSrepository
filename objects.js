@@ -15,7 +15,7 @@ function ehAdulto(pessoa)
 // Concatena os valores de um objeto em uma string
 function concatenaValores(obj) 
 {
-    return Object.values(obj).join("");
+    return Object.values(obj).join(" ");
 }
 
 module.exports = { calcularRetangulo, ehAdulto, concatenaValores };
